@@ -1,0 +1,3 @@
+[submodule "particleflow"]
+	path = particleflow
+	url = https://github.com/erwulff/particleflow.git
