@@ -19,7 +19,7 @@ RUN rm -rf particleflow/notebooks particleflow/images
 COPY particleflow /workspace/particleflow
 
 # Get the data
-COPY delphes_pf /workspace/tensorflow_datasets/delphes_pf
+COPY tensorflow_datasets/delphes_pf /workspace/tensorflow_datasets/delphes_pf
 
 COPY docker/train.sh /workspace/
 CMD bash train.sh
