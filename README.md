@@ -10,3 +10,9 @@ How to build and run the container:
 5. `docker run mlpf:<tag>`
 
 If you want to modify the training workflow, change the `docker/train.sh` script and/or the configuration file `particleflow/parameters/delphes-benchmark.yaml`
+
+# Non-containerized training workflow of MLPF
+Alternatively, the benchmark can be run by:
+1. Clone this repo and `cd` into it.
+2. Activate a fresh virtual environment with Python 3.9.
+3. Execute the `run.sh` script.
